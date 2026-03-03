@@ -1,4 +1,0 @@
-demo-service listening on 127.0.0.1:9101
-{"timestamp": "2026-03-02T08:51:51Z", "service": "demo-service", "env": "local", "level": "info", "traceId": "drill-m1-trace-001", "path": "/ok", "latencyMs": 0, "message": "request completed"}
-{"timestamp": "2026-03-02T08:51:51Z", "service": "demo-service", "env": "local", "level": "info", "traceId": "drill-m1-trace-001", "path": "/ok", "latencyMs": 0, "message": "request completed"}
-{"timestamp": "2026-03-02T08:51:51Z", "service": "demo-service", "env": "local", "level": "error", "traceId": "drill-m1-trace-001", "errorCode": "DEMO_ERROR", "path": "/error", "latencyMs": 0, "message": "forced error"}
