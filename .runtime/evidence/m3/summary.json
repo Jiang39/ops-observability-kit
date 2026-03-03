@@ -1,0 +1,8 @@
+﻿{
+    "traceId":  "drill-m3-trace-001",
+    "total_json_logs":  2,
+    "matched_trace_logs":  2,
+    "has_error":  true,
+    "has_info":  true,
+    "generated_at":  "2026-03-02 16:51:52 +08:00"
+}

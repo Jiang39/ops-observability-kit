@@ -1,0 +1,28 @@
+pipeline_stages:
+  - json:
+      expressions:
+        timestamp: timestamp
+        service: service
+        module: module
+        env: env
+        traceId: traceId
+        spanId: spanId
+        errorCode: errorCode
+        userId: userId
+        path: path
+        latencyMs: latencyMs
+        level: level
+        message: message
+
+  - labels:
+      service:
+      env:
+      level:
+      errorCode:
+
+  - timestamp:
+      source: timestamp
+      format: RFC3339
+
+  - output:
+      source: message
